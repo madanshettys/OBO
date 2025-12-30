@@ -17,7 +17,7 @@ This format is intended for **easy understanding and copy-paste usage**.
 curl -X POST "<OKTA_BASE_URL>/oauth2/default/v1/token" \
   -H "Accept: application/json" \
   -H "Content-Type: application/x-www-form-urlencoded" \
-  --data-urlencode "grant_type=client_credentials" \
+  --data-urlencode "grant_type=urn:ietf:params:oauth:grant-type:token-exchange" \
   --data-urlencode "client_id=<API_SERVICES_CLIENT_ID>" \
   --data-urlencode "client_secret=<API_SERVICES_CLIENT_SECRET>" \
   --data-urlencode "scope=mcp.read"
@@ -29,7 +29,7 @@ curl -X POST "<OKTA_BASE_URL>/oauth2/default/v1/token" \
 curl -X POST "https://trial-5337334.okta.com/oauth2/default/v1/token" \
   -H "Accept: application/json" \
   -H "Content-Type: application/x-www-form-urlencoded" \
-  --data-urlencode "grant_type=client_credentials" \
+  --data-urlencode "grant_type=urn:ietf:params:oauth:grant-type:token-exchange" \
   --data-urlencode "client_id=0oay6gzw6zJq2LsUj697" \
   --data-urlencode "client_secret=********" \
   --data-urlencode "scope=mcp.read"
