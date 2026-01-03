@@ -19,14 +19,6 @@ User
                             └── Protected APIs
 ```
 
----
-
-## Prerequisites
-
-- Okta Admin access
-- Okta Authorization Server (default or custom)
-- Frontend application (SPA)
-- Backend/API service
 
 ---
 
