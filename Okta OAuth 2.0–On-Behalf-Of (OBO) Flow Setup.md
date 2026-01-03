@@ -56,11 +56,11 @@ This application handles **user login and SSO**.
   - [x] Authorization Code
   - [x] Refresh Token
 - **Sign-in redirect URIs:**
-  - Production: `https://yourdomain.com/your-chat-page/`
-  - Local: `http://localhost:8080/`
+  - Production: `https://yourdomain.com/your-chat-page/` (The URL endpoint where the webchat web application is hosted)
+  - Local testing: `http://localhost:3000/`
 - **Sign-out redirect URIs:**
-  - Production: `https://yourdomain.com/your-chat-page/`
-  - Local: `http://localhost:8080/`
+  - Production: `https://yourdomain.com/your-chat-page/` (The URL endpoint where the webchat web application is hosted)
+  - Local testing: `http://localhost:3000/`
 - **Controlled access:** Allow everyone in your organization
 - **Disable:** Enable immediate access with Federation Broker Mode
 
@@ -72,14 +72,10 @@ Click **Save**.
 
 ## 3. Assign Users to SPA Application
 
-Path:
-```
-Applications → Applications → SPA WEB APPLICATION
-```
-
-1. Open the **Assignments** tab.
-2. Click **Assign → Assign to People**.
-3. Add users who should access the webchat.
+1. Go to **Applications → Applications → SPA WEB APPLICATION**
+2. Open the **Assignments** tab.
+3. Click **Assign → Assign to People**.
+4. Add users who should access the webchat.
 
 ---
 
@@ -170,7 +166,10 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-✅ Your Okta setup is now ready for:
-- SPA authentication
-- Backend OBO token exchange
-- Secure API access
+✅ Your Okta setup is now ready. Please store the following securely:
+
+- SPA Application **Client ID**
+- API Services Application **Client ID**
+- API Services Application **Client Secret**
+
+
