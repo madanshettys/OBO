@@ -8,19 +8,6 @@ This setup is typically used when:
 
 ---
 
-## Architecture Overview
-
-```
-User
- └── Frontend (OIDC SPA – Auth Code + PKCE)
-       └── Okta Authorization Server
-              └── ID Token / Access Token
-                     └── Backend (OBO Token Exchange)
-                            └── Protected APIs
-```
-
-
----
 
 ## 1. Create OIDC Single-Page Application (Frontend)
 
