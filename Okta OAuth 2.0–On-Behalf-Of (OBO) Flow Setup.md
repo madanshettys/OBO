@@ -35,8 +35,63 @@ https://trial-8712265-admin.okta.com/admin/getting-started
 ```
 
 ---
+## 2. Create Users and Configure Manager Attribute
 
-## 2. Create OIDC Single-Page Application (Frontend)
+In this setup, you need to create **exactly two users**:
+- One user with **manager access**
+- One user with **employee access**
+
+---
+
+### Step 1: Add Custom User Attribute
+
+**Directory → Profile Editor → All → User (default)**
+
+1. Click **Add Attribute**
+2. Configure the attribute:
+   - **Data type:** Boolean
+   - **Display name:** `is_manager`
+   - **Variable name:** `is_manager`
+3. Click **Save**
+
+---
+
+### Step 2: Create Two Users
+
+**Directory → People**
+
+1. Click **Add Person**
+2. Enter the following details:
+   - **First name**
+   - **Last name**
+   - **Username**
+   - **Primary email**
+3. Click **Save**
+4. Repeat the above steps to create a **second user**
+
+---
+
+### Step 3: Assign Manager Access
+
+**Directory → People**
+
+1. Click on the **first user**
+   - Go to the **Profile** tab → **Edit**
+   - Set **is_manager** = `true` (Manager access)
+   - Click **Save**
+
+2. Click on the **second user**
+   - Go to the **Profile** tab → **Edit**
+   - Set **is_manager** = `false` (Employee access)
+   - Click **Save**
+
+---
+
+This setup ensures that **one user has manager access and the other has employee access**.
+
+
+
+## 3. Create OIDC Single-Page Application (Frontend)
 
 This application handles **user login and SSO**.
 
@@ -71,7 +126,7 @@ Click **Save**.
 
 ---
 
-## 3. Assign Users to SPA Application
+## 4. Assign Users to SPA Application
 
 1. Go to **Applications → Applications → SPA WEB APPLICATION**
 2. Open the **Assignments** tab.
@@ -80,7 +135,7 @@ Click **Save**.
 
 ---
 
-## 4. Configure Authorization Server for SPA
+## 5. Configure Authorization Server for SPA
 
 1. Go to **Security → API → Authorization Servers**
 2. Open the **Default** server
@@ -95,7 +150,7 @@ Click **Save**.
 <img width="1618" height="1248" alt="image" src="https://github.com/user-attachments/assets/81ec4069-5e36-43b2-9bc3-c509f34f165c" />
    - Click **Create Policy**
 
-##  Create SPA Access Policy Rule
+## 6. Create SPA Access Policy Rule
 
 1. In the SPA access policy, click **Add Rule**
    <img width="1105" height="811" alt="Screenshot 2026-01-04 at 1 32 26 AM" src="https://github.com/user-attachments/assets/5234e0f4-c440-4534-a662-5ac002c0f1c2" />
@@ -116,7 +171,7 @@ Click **Save**.
 
 ---
 
-## 6. Create API Service Application (Backend)
+## 7. Create API Service Application (Backend)
 
 This application is used for **token exchange (OBO)** and backend API access.
 
@@ -149,7 +204,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 7. Configure Authorization Server for API Services
+## 8. Configure Authorization Server for API Services
 
 1. Go to **Security → API → Authorization Servers**
 2. Open the **Default** server  
@@ -162,7 +217,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 8. Add Custom Scope
+## 9. Add Custom Scope
 
 1. Go to the **Scopes** tab
 2. Click **Add Scope**
@@ -175,7 +230,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 9. Create API Services Policy Rule
+## 10. Create API Services Policy Rule
 <img width="2002" height="1432" alt="Screenshot 2026-01-08 at 10 39 44 PM" src="https://github.com/user-attachments/assets/5539fd14-545a-4565-950b-c7b9dc6c6072" />
 
 1. Go to the **Access Policies** tab → under the **API Services access policy**, click **Add Rule**.
