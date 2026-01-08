@@ -141,8 +141,15 @@ Click **Save**.
 2. Open the **Default** server
 <img width="2074" height="732" alt="image" src="https://github.com/user-attachments/assets/792cfe5e-2dc6-427a-941d-e7ec85cbbf08" />
 
-   
-3. Go to **Access Policies** tab → **Add Policy**
+3. Go to the **Claims** tab → click **Add Claim**
+   - **Name:** `is_manager`
+   - **Include in token type:** `ID Token` (Always)
+   - **Value type:** `Expression`
+   - **Value:** `user.is_manager`
+   <img width="554" height="487" alt="Screenshot 2026-01-09 at 12 06 52 AM" src="https://github.com/user-attachments/assets/2f32c532-22c9-4ec7-ba01-db3365211db4" />
+
+
+4. Go to **Access Policies** tab → **Add Policy**
    - **Name:** `SPA Access Policy`
    - **Description:** `SPA Access Policy`
    - **Assign to:** `SPA WEB APPLICATION`
