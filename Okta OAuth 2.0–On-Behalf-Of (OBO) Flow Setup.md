@@ -105,7 +105,7 @@ Click **Save**.
    - **Grant type:**
       - [x] Authorization Code
    - **User:** Any user assigned the app
-   - **Scopes:**
+   - **Scopes requested:**
      - `openid`
      - `profile`
      - `email`
@@ -138,10 +138,13 @@ This application is used for **token exchange (OBO)** and backend API access.
   - **Client ID**
   - **Client Secret**
 - Edit **General Settings**
+   - In **Proof of Possession**
+     - Uncheck **Require Demonstrating Proof of Possession (DPoP) header in token requests**
    - In **Grant types**, select **Client Credentials**
       - **Click Advanced**, Select **Token Exchange**
    - Click **save**
-   <img width="1360" height="1336" alt="image" src="https://github.com/user-attachments/assets/0bab4521-a923-4b47-9c1a-8dbd2bdfb26d" />
+  <img width="1360" height="1120" alt="image" src="https://github.com/user-attachments/assets/afcba6bb-c7f0-4451-8432-8dc851db29ef" />
+
 
 
 ---
@@ -165,13 +168,17 @@ This application is used for **token exchange (OBO)** and backend API access.
 2. Click **Add Scope**
    - **Name:** `mcp.read`
    - **Display phrase:** `MCP Read`
+   - click **Create** 
+<img width="1300" height="1328" alt="image" src="https://github.com/user-attachments/assets/c67d662d-87b9-4cd3-95c1-6b5bf5b977bd" />
+
 
 
 ---
 
 ## 9. Create API Services Policy Rule
+<img width="2002" height="1432" alt="Screenshot 2026-01-08 at 10 39 44 PM" src="https://github.com/user-attachments/assets/5539fd14-545a-4565-950b-c7b9dc6c6072" />
 
-1. In the API Services access policy, click **Add Rule**
+1. Go to the **Access Policies** tab → under the **API Services access policy**, click **Add Rule**.
 2. Configure:
    - **Rule Name:** `API Services Rule`
    - **Grant types:**
@@ -179,6 +186,7 @@ This application is used for **token exchange (OBO)** and backend API access.
      - Authorization Code
      - Device Authorization
      - Token Exchange (Advanced → Non-interactive grants)
+   - **User**: Any user assigned to the app
    - **Scopes requested:**
      - `mcp.read`
    - **Access token lifetime:** 5 minutes
