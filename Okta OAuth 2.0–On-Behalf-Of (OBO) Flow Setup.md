@@ -253,6 +253,8 @@ This application is used for **token exchange (OBO)** and backend API access.
      - `mcp.read`
    - **Access token lifetime:** 5 minutes
    - **Refresh token lifetime:** 90 days
+   - <img width="1062" height="1782" alt="image (1)" src="https://github.com/user-attachments/assets/f1cfdbbf-9c58-4170-829b-fddd875e3cae" />
+
 
 ---
 
