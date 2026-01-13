@@ -33,6 +33,7 @@ https://{okta_org}-admin.okta.com/admin/getting-started
 ```
 https://trial-8712265-admin.okta.com/admin/getting-started
 ```
+Go to this URL and complete the setup process. Extract the `okta_org` value from the URL and store it securely for future use.
 
 ---
 ## 2. Create Users and Configure Manager Attribute
@@ -258,10 +259,21 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-✅ Your Okta setup is now ready. Please store the following securely:
+## Okta Setup Complete
 
-- SPA Application **Client ID**
-- API Services Application **Client ID**
-- API Services Application **Client Secret**
+✅ Your Okta setup is now ready. Please store the following values securely, as they will be required for future configurations and integrations.
+
+### From Step 1
+- `okta_org` (for example: trial-8712265)
+
+### From Step 3
+- SPA Application Client ID
+
+### From Step 7
+- API Services Application Client ID  
+- API Services Application Client Secret
+
+
+
 
 
