@@ -53,12 +53,21 @@ cat example-jwtRS256.key.pub
 
 1. Visit [IBM Cloud](https://cloud.ibm.com).
 2. Choose your account and navigate to **Resource List**.
+<img width="1728" height="992" alt="Screenshot 2026-01-16 at 12 10 13 AM" src="https://github.com/user-attachments/assets/ec6ab116-05cf-4222-afd4-4b4e5f33d976" />
 3. Under **Containers**, select **Code Engine**.
+<img width="1728" height="992" alt="Screenshot 2026-01-16 at 12 11 38 AM" src="https://github.com/user-attachments/assets/70cc417f-9060-4fe6-8284-b0f036f3854c" />
+
 4. Click on **Secrets and configmaps**.
 5. Click **Create new** → Select **SSH Secret**.
-6. Provide:
-   - A name for the secret.
-   - The private key from **Step 3** in the **Private Key** field.
+<img width="1728" height="992" alt="Screenshot 2026-01-16 at 12 15 17 AM" src="https://github.com/user-attachments/assets/0e79b16b-5771-4558-bb1b-f681aa588e88" />
+<img width="1728" height="992" alt="Screenshot 2026-01-16 at 12 21 21 AM" src="https://github.com/user-attachments/assets/894a9c54-0e4c-4548-a4e2-c63dc1dbefa4" />
+
+6. Enter the following details:
+
+  - **Secret name**: github-code-engine-ssh
+  - **SSH private key**: Paste the private SSH key generated in Step 3 into the Private Key field.
+
+<img width="3456" height="1984" alt="image" src="https://github.com/user-attachments/assets/aaa2c1d2-cd2d-4fa5-a0b7-a899a98afdac" />
 
 ---
 
@@ -68,7 +77,7 @@ cat example-jwtRS256.key.pub
 2. Click your profile icon (top-right) → **Settings**.
 3. In the left menu, click **SSH and GPG keys**.
 4. Click **New SSH key** and fill in the form:
-   - **Title**: e.g., "Work Laptop SSH"
+   - **Title**: e.g., "**github-code-engine-ssh**"
    - **Key type**: Select **Authentication Key**
    - **Key**: Paste the public key from **Step 4**
 5. Click **Add SSH key** to save.
