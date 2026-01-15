@@ -82,6 +82,9 @@ cat example-jwtRS256.key.pub
    - **Key**: Paste the public key from **Step 4**
 5. Click **Add SSH key** to save.
 
+   <img width="1370" height="816" alt="Screenshot 2026-01-16 at 12 48 47 AM" src="https://github.com/user-attachments/assets/f2b9f89e-4e2c-400a-99c0-5070056caf77" />
+
+
 ---
 
 ✅ You're now ready to authenticate and deploy securely!
