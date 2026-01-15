@@ -12,6 +12,8 @@ Main_Folder/
 ├── requirements.txt
 └── Dockerfile
 ```
+<img width="2656" height="1428" alt="image" src="https://github.com/user-attachments/assets/e8a514fc-6c0a-401a-b7e5-73efa91d2f75" />
+
 
 ---
 
@@ -44,9 +46,9 @@ Choose “**Build container image from source code**” and click on “**Specif
 #### **Source Tab**
 
 - **Code repo URL**: Paste the GitHub repository URL that contains your application
-- **SSH Secret**: Select the SSH key you configured to access the GitHub repository
+- **SSH Secret**: `github-code-engine-ssh` — select the SSH key you configured to access the GitHub repository.
 - **Branch name**: Enter the branch to build from (e.g., `main`)
-- **Context directory**: Leave this empty or set it as-is, since all files are in the root folder of the repository
+- **Context directory**: Leave this empty, since all files are in the root folder of the repository
 
 #### **Strategy Tab**
 
