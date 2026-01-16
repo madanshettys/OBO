@@ -40,7 +40,9 @@ Main_Folder/
 
 ### 2. **Configure Build Source**
 
-Choose “**Build container image from source code**” and click on “**Specify build details**”.<img width="1339" height="845" alt="Screenshot 2026-01-15 at 12 58 28 PM" src="https://github.com/user-attachments/assets/7e22811b-2acb-464c-b424-1d39733896d9" />
+Choose “**Build container image from source code**” and click on “**Specify build details**”.
+<img width="1728" height="989" alt="Screenshot 2026-01-16 at 2 08 51 PM" src="https://github.com/user-attachments/assets/fd2bdbd6-dc8a-485e-9318-7d0acd8d886e" />
+
 
 
 #### **Source Tab**
@@ -50,12 +52,14 @@ Choose “**Build container image from source code**” and click on “**Specif
 - **Branch name**: Enter the branch to build from (e.g., `main`)
 - **Context directory**: Leave this empty, since all files are in the root folder of the repository
 
+
 #### **Strategy Tab**
 
 - **Strategy**: Select `Dockerfile`
 - **Dockerfile**: Enter `Dockerfile`
 - **Timeout (seconds)**: `10m`
 - **Build resources**: `M (1 vCPU / 4 GB)`
+
 
 #### **Output Tab**
 
