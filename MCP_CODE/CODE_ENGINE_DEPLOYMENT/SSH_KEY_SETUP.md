@@ -1,4 +1,4 @@
-# SSH Key Setup and GitHub Configuration for IBM Code Engine
+# Connecting GitHub to IBM Code Engine
 
 _All commands below are to be run in your terminal (e.g., Terminal on macOS)._  
 _Ensure you're in your home directory unless specified otherwise._
