@@ -123,6 +123,9 @@ Then, right-click on the **Application link** and select **Copy Link Address**.
 
 ---
 
+This  **Updated URL** is the actual endpoint through which you can access the MCP tool.
+
+Please store this URL securely, as it will be required for future configurations.
 
 ---
 
