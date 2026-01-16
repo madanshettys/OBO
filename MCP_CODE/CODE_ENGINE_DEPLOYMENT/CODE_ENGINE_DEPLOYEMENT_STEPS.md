@@ -5,7 +5,6 @@ This guide outlines how to deploy a FastAPI application to **IBM Code Engine** u
 ---
 ## 🧰 Prerequisites
 
-- GitHub Enterprise account (`github.ibm.com`)
 - IBM Cloud account with a Code Engine instance
 - GitHub repository with your project
 - [SSH Key Setup to Connect GitHub to IBM Code Engine](./SSH_KEY_SETUP.md)
