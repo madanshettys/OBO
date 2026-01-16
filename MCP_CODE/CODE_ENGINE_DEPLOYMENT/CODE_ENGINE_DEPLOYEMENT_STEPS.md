@@ -3,7 +3,14 @@
 This guide outlines how to deploy a FastAPI application to **IBM Code Engine** using source code from a **GitHub repository**. The deployment uses a Dockerfile-based strategy.
 
 ---
+## 🧰 Prerequisites
 
+- GitHub Enterprise account (`github.ibm.com`)
+- IBM Cloud account with a Code Engine instance
+- GitHub repository with your project
+- [SSH Key Setup to Connect GitHub to IBM Code Engine](./ssh_key.md)
+- Registry access (IBM Container Registry or other)
+---
 ## 📁 Project Structure
 
 ```
