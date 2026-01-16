@@ -109,17 +109,20 @@ Click **Done**.
 
 ### 6. **Create the Application**
 
-Click **Create** and wait for the status to show **Running**.
+click **Create** and wait for the status to show **Running**. After that, click **Application**.
+<img width="3456" height="1882" alt="Screenshot 2026-01-16 at 2 40 08 PM" src="https://github.com/user-attachments/assets/cd87d127-a8ad-4159-b9f2-a063a5d39031" />
+Then, right-click on the **Application link** and select **Copy Link Address**.
+<img width="3456" height="1882" alt="Screenshot 2026-01-16 at 4 47 47 PM" src="https://github.com/user-attachments/assets/ff29d27a-e678-4f13-b27e-4b53c42f4f6f" />
+- After that, add `mcp` as a suffix to the URL you copied using **Copy Link Address**.
+
+**Example:**
+- **Original URL**: `www.mcp.com`
+- **Updated URL**: `www.mcp.com/mcp`
+
+
 
 ---
 
-## 🔍 Accessing Logs & URL
-
-1. After creation, go to **Applications**
-2. Click on your application
-3. Navigate to **Builds > Build Runs**
-4. Use the **Application URL** to access your app
-5. Check logs here if there are errors during deployment
 
 ---
 
