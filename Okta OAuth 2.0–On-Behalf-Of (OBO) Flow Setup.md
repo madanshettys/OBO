@@ -33,7 +33,34 @@ https://{okta_org}-admin.okta.com/admin/getting-started
 ```
 https://trial-8712265-admin.okta.com/admin/getting-started
 ```
-Go to this URL and complete the setup process. Extract the `okta_org` value from the URL and store it securely for future use.
+Go to the above URL and complete the setup process.
+
+---
+
+### Extract Okta Organization Details
+
+From the Admin URL, extract the `okta_org` value and derive the Okta base URL.
+
+**okta_org**
+
+```
+trial-8712265
+```
+
+**OKTA_BASE_URL**
+
+```
+https://{okta_org}.okta.com
+```
+
+**Example:**
+
+```
+https://trial-8712265.okta.com
+```
+
+🔐 **Important:** Store `OKTA_BASE_URL` securely.
+
 
 ---
 ## Step 2. Create Users and Configure Manager Attribute
@@ -123,7 +150,12 @@ This application handles **user login and SSO**.
 
 Click **Save**.
 
-➡️ Copy and securely store the SPA Application **Client ID**.
+### Store Application Details
+
+After saving the application, copy the **Client ID** and store it securely as:
+
+**SPA_CLIENT_ID**
+
 
 ---
 
