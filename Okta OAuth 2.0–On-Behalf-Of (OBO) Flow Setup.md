@@ -229,9 +229,12 @@ This application is used for **token exchange (OBO)** and backend API access.
 - **Client authentication:** 
    - [x] Client secret
 - Click **Save**
-- Copy and securely store:
-  - **Client ID**
-  - **Client Secret**
+### Store Application Credentials
+
+After saving the application, copy and securely store the following values:
+
+- **Client ID** → `API_SERVICES_CLIENT_ID`
+- **Client Secret** → `API_SERVICES_CLIENT_SECRET`
 - Edit **General Settings**
    - In **Proof of Possession**
      - Uncheck **Require Demonstrating Proof of Possession (DPoP) header in token requests**
