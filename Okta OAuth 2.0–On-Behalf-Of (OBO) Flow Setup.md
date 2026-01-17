@@ -299,14 +299,14 @@ After saving the application, copy and securely store the following values:
 ✅ Your Okta setup is now ready. Please store the following values securely, as they will be required for future configurations and integrations.
 
 ### From Step 1
-- `okta_org` (for example: trial-8712265)
+- `OKTA_BASE_URL` 
 
 ### From Step 3
-- SPA Application Client ID
+- `SPA_CLIENT_ID`
 
 ### From Step 7
-- API Services Application Client ID  
-- API Services Application Client Secret
+- `API_SERVICES_CLIENT_ID`
+- `API_SERVICES_CLIENT_SECRET`
 
 
 
