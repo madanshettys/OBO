@@ -8,7 +8,7 @@ This setup is typically used when:
 
 ---
 
-## 1. Sign Up for Okta Free Trial
+## Step 1.Sign Up for Okta Free Trial
 
 1. Go to the [Okta Free Trial](https://www.okta.com/free-trial/workforce-identity/).
 2. Provide the following details:
@@ -36,7 +36,7 @@ https://trial-8712265-admin.okta.com/admin/getting-started
 Go to this URL and complete the setup process. Extract the `okta_org` value from the URL and store it securely for future use.
 
 ---
-## 2. Create Users and Configure Manager Attribute
+## Step 2. Create Users and Configure Manager Attribute
 
 In this setup, you need to create **exactly two users**:
 - One user with **manager access**
@@ -92,7 +92,7 @@ This setup ensures that **one user has manager access and the other has employee
 
 
 
-## 3. Create OIDC Single-Page Application (Frontend)
+## Step 3. Create OIDC Single-Page Application (Frontend)
 
 This application handles **user login and SSO**.
 
@@ -127,7 +127,7 @@ Click **Save**.
 
 ---
 
-## 4. Assign Users to SPA Application
+## Step 4. Assign Users to SPA Application
 
 1. Go to **Applications → Applications → SPA WEB APPLICATION**
 2. Open the **Assignments** tab.
@@ -136,7 +136,7 @@ Click **Save**.
 
 ---
 
-## 5. Configure Authorization Server for SPA
+## Step 5. Configure Authorization Server for SPA
 
 1. Go to **Security → API → Authorization Servers**
 2. Open the **Default** server
@@ -158,7 +158,7 @@ Click **Save**.
 <img width="1618" height="1248" alt="image" src="https://github.com/user-attachments/assets/81ec4069-5e36-43b2-9bc3-c509f34f165c" />
    - Click **Create Policy**
 
-## 6. Create SPA Access Policy Rule
+## Step 6. Create SPA Access Policy Rule
 
 1. In the SPA access policy, click **Add Rule**
    <img width="1105" height="811" alt="Screenshot 2026-01-04 at 1 32 26 AM" src="https://github.com/user-attachments/assets/5234e0f4-c440-4534-a662-5ac002c0f1c2" />
@@ -179,7 +179,7 @@ Click **Save**.
 
 ---
 
-## 7. Create API Service Application (Backend)
+## Step 7. Create API Service Application (Backend)
 
 This application is used for **token exchange (OBO)** and backend API access.
 
@@ -212,7 +212,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 8. Configure Authorization Server for API Services
+## Step 8. Configure Authorization Server for API Services
 
 1. Go to **Security → API → Authorization Servers**
 2. Open the **Default** server  
@@ -225,7 +225,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 9. Add Custom Scope
+## Step 9. Add Custom Scope
 
 1. Go to the **Scopes** tab
 2. Click **Add Scope**
@@ -238,7 +238,7 @@ This application is used for **token exchange (OBO)** and backend API access.
 
 ---
 
-## 10. Create API Services Policy Rule
+## Step 10. Create API Services Policy Rule
 <img width="2002" height="1432" alt="Screenshot 2026-01-08 at 10 39 44 PM" src="https://github.com/user-attachments/assets/5539fd14-545a-4565-950b-c7b9dc6c6072" />
 
 1. Go to the **Access Policies** tab → under the **API Services access policy**, click **Add Rule**.
