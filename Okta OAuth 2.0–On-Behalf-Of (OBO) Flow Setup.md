@@ -188,7 +188,7 @@ After saving the application, copy the **Client ID** and store it securely as:
    - **Assign to:** `SPA WEB APPLICATION`
    - Click **Create Policy**
 <img width="1618" height="1248" alt="image" src="https://github.com/user-attachments/assets/81ec4069-5e36-43b2-9bc3-c509f34f165c" />
-   - Click **Create Policy**
+
 
 ## Step 6. Create SPA Access Policy Rule
 
@@ -207,7 +207,7 @@ After saving the application, copy the **Client ID** and store it securely as:
    - **Access token lifetime:** 5 minutes
    - **Refresh token lifetime:** 90 days
 <img width="1296" height="1876" alt="image" src="https://github.com/user-attachments/assets/69fc70d2-c6f0-4f35-96bf-b2ce51abf658" />
-   - Click **Create Policy**
+   - Click **Create Rule**
 
 ---
 
