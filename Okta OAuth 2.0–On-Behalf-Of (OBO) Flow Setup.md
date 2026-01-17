@@ -44,7 +44,7 @@ In this setup, you need to create **exactly two users**:
 
 ---
 
-### Step 1: Add Custom User Attribute
+### Add Custom User Attribute
 
 **Directory → Profile Editor → All → User (default)**
 
@@ -57,7 +57,7 @@ In this setup, you need to create **exactly two users**:
 
 ---
 
-### Step 2: Create Two Users
+### Create Two Users
 
 **Directory → People**
 
@@ -72,7 +72,7 @@ In this setup, you need to create **exactly two users**:
 
 ---
 
-### Step 3: Assign Manager Access
+### Assign Manager Access
 
 **Directory → People**
 
