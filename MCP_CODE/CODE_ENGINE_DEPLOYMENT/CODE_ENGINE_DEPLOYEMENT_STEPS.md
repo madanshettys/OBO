@@ -128,13 +128,14 @@ Then, right-click on the **Application link** and select **Copy Link Address**.
 
 ---
 
-This  **Updated URL** is the actual endpoint through which you can access the MCP tool.
+### Store MCP Server Endpoint
 
-Please store this URL securely, as it will be required for future configurations.
+The **Updated URL** is the actual endpoint through which you can access the MCP tool.
 
----
+Store this value securely as:
+
+`MCP_SERVER_URL`
+
+🔐 This URL will be required for future configurations and integrations.
 
 
-## 📬 Contact
-
-For issues, raise a GitHub issue or reach out via IBM Cloud support.
