@@ -74,6 +74,7 @@ mcp_server_code/
 ---
 
 ### 2. **Configure Build Source**
+Give `Name` as `mcp_server`
 
 Choose “**Build container image from source code**” and click on “**Specify build details**”.
 <img width="1728" height="989" alt="Screenshot 2026-01-16 at 2 08 51 PM" src="https://github.com/user-attachments/assets/fd2bdbd6-dc8a-485e-9318-7d0acd8d886e" />
