@@ -7,12 +7,18 @@ This guide outlines how to deploy a FastAPI application to **IBM Code Engine** u
 ## 🧰 Prerequisites
 
 - IBM Cloud account with a Code Engine instance
-- Access to GitHub (IBM GitHub or GitHub.com)
+- Access to GitHub (IBM GitHub)
 - SSH key configured in GitHub and IBM Cloud  
   👉 [SSH Key Setup to Connect GitHub to IBM Code Engine](./ssh-key-setup.md)
 - Container registry access (IBM Container Registry or other)
 
 ---
+> ⚠️ **Important**
+>
+> If you do **not** complete the  
+> [SSH Key Setup to Connect GitHub to IBM Code Engine](./ssh-key-setup.md),  
+> IBM Cloud Code Engine will **not be able to pull the source code from GitHub**, and the deployment will fail.
+
 
 ## 📦 Prepare the GitHub Repository
 
@@ -51,6 +57,7 @@ mcp_server_code/
 ├── requirements.txt
 └── Dockerfile
 ```
+<img width="2396" height="1256" alt="image (27)" src="https://github.com/user-attachments/assets/a2c3321e-eae7-4868-969a-de964eb3202f" />
 
 ---
 
